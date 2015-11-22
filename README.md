@@ -6,8 +6,10 @@
 * 플레이 리스트 링크를 넘기면 해당 플레이리스트 다운로드
 
 ### Usage
-* 파이썬코드 받아서 argument로 url을 넘기면됨
-* 비공개 플레이리스트의 경우에는 다운로드 아직은 안됨 (추가 예정)
+
+	from youtube_playlist_downloader.youtube_mp3_download import *
+
+	YoutubeSingleDownloader("<video_link>").music_single_downloader()
 
 ### Requirements
 * FFMPEG binary (https://www.ffmpeg.org/)
