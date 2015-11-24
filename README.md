@@ -7,9 +7,18 @@
 
 ### Usage
 
+**single video**
+
 	from youtube_playlist_downloader.youtube_mp3_download import *
 
 	YoutubeSingleDownloader("<video_link>").music_single_downloader()
+
+**video list**
+
+	from youtube_playlist_downloader.youtube_mp3_download import *
+
+	YoutubePlaylistDownloader("<list_link>").music_list_downloader()
+
 
 ### Requirements
 * FFMPEG binary (https://www.ffmpeg.org/)
